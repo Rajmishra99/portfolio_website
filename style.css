@@ -203,7 +203,7 @@ header {
     justify-content: space-between;
     margin-top: 40px;
     gap: 20px;
-    background-image: url(./image/skill\ background.png);
+    background-image: url(skill\ background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
