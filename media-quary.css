@@ -1,0 +1,152 @@
+/* Responsive Design section */
+/* for large screen */
+@media screen and (max-width: 991px) {
+    h1{
+        font-size: 3rem;
+    }
+    
+    h2{
+        font-size: 1.8rem ;
+    }
+    
+    h3{
+        font-size: 1.2rem ;
+    }
+
+    p{
+        font-size: 1.15rem ;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+
+    .nav-links{
+       position: absolute;
+       background-color: white;
+       left: -100%;
+       top: 100%;
+       width: 100%;
+       padding-block: 20px;
+       /* transition: 1s ease-in-out; */
+    }
+
+    .nav-links.active{
+        left: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    .examples-area{
+        gap: 20px;
+    }
+
+    .feature-img{
+        min-width: 300px;
+    }
+
+    .examples-card{
+        width: calc( 50% - 10px);
+        height: 200px;
+    }
+
+    .cta-section{
+        padding-block: 80px;
+    }
+}
+
+/* for medium screen */
+@media screen and (max-width: 767px) {
+
+    .primary-button{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .header-left{
+        max-width: 90vw;
+        text-align: center;
+    }
+
+    .feature-card{
+        flex-direction: column;
+        gap: 20px;
+        min-width: calc(50% - 10px);
+        text-align: center;
+    }
+
+    .big-feature-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .link-column{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .feature-img{
+        width: 70vw;
+    }
+
+    .feature-desc{
+        width: 85vw ;
+    }
+
+    .big-feature-container-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .Testimonials-section-flex{
+        flex-direction: column-reverse;
+    }
+}
+
+
+/* for small screen */
+@media screen and (max-width: 479px) {
+    :root {
+        ---padding-inline-section: 10px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.5rem ;
+    }
+    
+    h3{
+        font-size: 1.2rem ;
+    }
+    
+    p{
+        font-size: 1rem ;
+    }
+
+    .feature-card{
+        min-width: 100%;
+    }
+
+    .examples-card{
+        width: 100%;
+    }
+
+}
